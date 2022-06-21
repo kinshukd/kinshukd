@@ -1,0 +1,17 @@
+// Null Analysis
+
+SELECT order_id FROM product
+WHERE product IS NULL OR site_version IS NULL OR time IS NULL OR title IS NULL OR target IS NULL;
+
+//Distinct Products
+
+SELECT DISTINCT product from productdata;
+
+product
+
+sneakers
+sports_nutrition
+company
+accessories
+clothes
+
